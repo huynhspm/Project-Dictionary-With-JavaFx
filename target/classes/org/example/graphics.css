@@ -1,0 +1,12 @@
+#scene{
+    -fx-background-color: #003366;
+}
+
+.enterLabel{
+    -fx-background-color: #0093cf;
+}
+
+.text{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}

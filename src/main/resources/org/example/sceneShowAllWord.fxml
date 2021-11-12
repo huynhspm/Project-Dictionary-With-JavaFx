@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" onMouseMoved="#mouseMove" prefHeight="513.0" prefWidth="672.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SceneShowAllWordController">
+    <children>
+        <TableView fx:id="tableView" layoutX="5.0" layoutY="4.0" onMouseMoved="#mouseMove" prefHeight="441.0" prefWidth="663.0">
+            <columns>
+                <TableColumn fx:id="english" prefWidth="179.0" text="ENGLISH" />
+                <TableColumn fx:id="vietnamese" prefWidth="483.0" text="VIETNAMESE" />
+            </columns>
+        </TableView>
+      <Label fx:id="labelDelete" layoutX="282.0" layoutY="449.0" onMouseClicked="#clickLabelDelete" onMouseEntered="#enterLabelDelete" onMouseExited="#exitLabelDelete" onMouseMoved="#mouseMove">
+         <graphic>
+                <ImageView fitHeight="50.0" fitWidth="157.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Picture/delete.png" />
+                    </image>
+                </ImageView>
+         </graphic>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SceneMenuController">
+    <children>
+        <ImageView fitHeight="630.0" fitWidth="840.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Picture/BackGround.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="labelHome" layoutY="120.0" prefHeight="84.0" prefWidth="168.0" styleClass="enterLabel" />
+        <ImageView fitHeight="84.0" fitWidth="168.0" layoutY="120.0" onMouseClicked="#clickHome" onMouseEntered="#enterHome" onMouseExited="#exitHome" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Picture/home.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="labelSearch" layoutY="220.0" prefHeight="84.0" prefWidth="168.0" styleClass="enterLabel" visible="false" />
+        <ImageView fitHeight="84.0" fitWidth="168.0" layoutY="220.0" onMouseClicked="#clickSearch" onMouseEntered="#enterSearch" onMouseExited="#exitSearch" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Picture/search.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="labelAdd" layoutY="320.0" prefHeight="84.0" prefWidth="168.0" styleClass="enterLabel" visible="false" />
+        <ImageView fitHeight="84.0" fitWidth="168.0" layoutY="320.0" onMouseClicked="#clickAdd" onMouseEntered="#enterAdd" onMouseExited="#exitAdd" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Picture/add.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="labelShow" layoutY="420.0" prefHeight="84.0" prefWidth="168.0" styleClass="enterLabel" visible="false" />
+        <ImageView fitHeight="84.0" fitWidth="168.0" layoutY="420.0" onMouseClicked="#clickShow" onMouseEntered="#enterShow" onMouseExited="#exitShow" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Picture/show.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="labelQuit" layoutY="520.0" prefHeight="84.0" prefWidth="168.0" styleClass="enterLabel" visible="false" />
+        <ImageView fitHeight="84.0" fitWidth="168.0" layoutY="520.0" onMouseClicked="#clickQuit" onMouseEntered="#enterQuit" onMouseExited="#exitQuit" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Picture/quit.png" />
+            </image>
+        </ImageView>
+        <AnchorPane fx:id="anchorPane" layoutX="168.0" layoutY="117.0" prefHeight="513.0" prefWidth="672.0" />
+    </children>
+</AnchorPane>
