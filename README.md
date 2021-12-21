@@ -13,4 +13,4 @@
        - delete word in list of words by pressing and draging the mouse this word
        
 
--This project is completed by huynhspm and supporting from Pham Huy Hoang and Nguyen The Anh
+### This project is completed by huynhspm and supporting from Pham Huy Hoang and Nguyen The Anh
